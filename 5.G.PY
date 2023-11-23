@@ -1,0 +1,8 @@
+color_list1=input("enter first list of colors:")
+color_list1=color_list1.split(',')
+color_list2=input("enter second list of colors:")
+color_list2=color_list2.split(',')
+print("first list of colors:",color_list1)
+print("second list of colors:",color_list2)
+diff=set(color_list1)-set(color_list2)
+print("colors present in list 1 and not in list 2 is:",diff)
